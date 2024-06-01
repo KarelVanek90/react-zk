@@ -1,0 +1,30 @@
+.form-work {
+  width: 650px;
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.form-work > form > input {
+  margin: 8px 5px;
+  padding: 4px 12px;
+}
+
+.active {
+  background-color: rgb(15, 163, 28);
+}
+.deactive {
+  background-color: rgb(226, 43, 43);
+}
+.btn-work {
+  padding: 6px 15px;
+  margin: 8px 2px;
+  border: none;
+
+  color: white;
+  border-radius: 8px;
+}
+.btn-work.active:hover {
+  cursor: pointer;
+  background-color: rgb(18, 180, 32);
+  box-shadow: 1px 1px 5px 2px rgba(68, 204, 34, 0.507);
+}

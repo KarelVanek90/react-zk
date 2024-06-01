@@ -1,0 +1,15 @@
+.employees {
+  border: 1px solid black;
+}
+.btn-delete {
+  margin: 0 15px;
+  border-radius: 50%;
+  border: none;
+  background-color: black;
+  color: white;
+}
+.btn-delete:hover {
+  cursor: pointer;
+  background-color: rgb(192, 191, 191);
+  color: black;
+}
